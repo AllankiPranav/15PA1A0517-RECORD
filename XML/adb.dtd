@@ -1,0 +1,8 @@
+<!ELEMENT addressbook (address)>
+<!ELEMENT address (permanent,temp)>
+<!ELEMENT permanent (dno.,street,state,pincode)>
+<!ELEMENT temp (dno.,street,state,pincode)>
+<!ELEMENT dno. (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+Enter the number: <input id="num" onkeyup="myfun()">
+<p id="txt"></p>
+<script>
+  function myfun(){
+    var n=document.getElementById('num').value;
+    if(isNaN(n))  document.getElementById('txt').innerHTML='Invalid Input';
+    else{
+      var c=0;
+      var x;
+      for(x=2;x<n;x++){
+        if(n%x==0)  c++;
+      }
+      if(c==0)  document.getElementById('txt').innerHTML='Prime';
+      else  document.getElementById('txt').innerHTML='Not a Prime';
+    }
+  }
+</script>
+</body>
+</html> 

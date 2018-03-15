@@ -1,0 +1,13 @@
+<!doctype HTML>
+<html>
+  <body onresize='myfun()'>
+    <p id='txt'></p>
+    <script>
+      function myfun(){
+        var w=window.innerWidth;
+        var h=window.innerHeight;
+       document.getElementById('txt').innerHTML='Width= '+w+' Height='+h;
+      }
+    </script>
+  </body>
+</html>

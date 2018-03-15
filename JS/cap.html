@@ -1,0 +1,13 @@
+<!doctype HTML>
+<html>
+  <body>
+    <input type="text" id="txt" onmouseleave="myfun()"/>
+    <p id="t"></p>
+    <script>
+      function myfun(){
+        var x=(document.getElementById('txt').value).toUpperCase();
+        document.getElementById('t').innerHTML=x;
+      }
+    </script>
+  </body>
+</html>

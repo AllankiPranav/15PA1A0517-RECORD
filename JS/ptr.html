@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+Enter the Principal: <input id="p"><br>
+Enter the Time: <input id="t"><br>
+Enter the Rate: <input id="r"><br>
+<button onclick="myfun()" type="button" id="btn">Calculate</button>
+<p id="txt"></p>
+<script>
+  function myfun(){
+    var x=(document.getElementById('p').value*document.getElementById('t').value*document.getElementById('r').value);
+    document.getElementById('txt').innerHTML=x/100;
+  }
+</script>
+</body>
+</html> 

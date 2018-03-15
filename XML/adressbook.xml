@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE addressbook SYSTEM "adb.dtd">
+<?xml-stylesheet type="text/xsl" href="adb.xsl"?>
+<addressbook>
+    <address>
+        <permanent>
+            <dno.>Flat No:101</dno.>
+            <street>RR Pet</street>
+            <state>West Godavari</state>
+            <pincode>534002</pincode>
+        </permanent>
+        <temp>
+            <dno.>D2-NareshCafe</dno.>
+            <street>B.V Raju Marg</street>
+            <state>West Godavari</state>
+            <pincode>534202</pincode>
+        </temp>
+    </address>    
+</addressbook>
